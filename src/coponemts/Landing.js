@@ -21,16 +21,16 @@ class Landing extends Component {
                     
                     <div className="row agile_banner_info">
                         <div className="col-md-7 agile_banner_margin text-white">
-                            <h5>Hi,</h5>
-                            <h2>My name is <span> Daniel</span></h2>
-                            <h4>Web Developer Full Stack</h4>
-                            <p>Recherche d’une alternance professionnelle à compter de Novembre 2020 dans le domaine du développement web</p>
-                            <p> Is more than just developing , It's Style</p>
-                            <a href="#"> Read More </a>
+                            <h5>Bonjour,</h5>
+                            <h2>Je m'appelle<span> Daniel</span></h2>
+                            <h4> Developpeur Web Full Stack,</h4>
+                            <h5> C'est plus que du développement, c'est un style de vie.</h5>
+                            <p>Actuellement en recherche d’une alternance professionnelle d’une durée de 12 mois à compter de Septembre 2020 dans le domaine du développement web.</p>
+                            <a href="#"> Lire plus </a>
                         </div>
                        
 			        </div>
-                    <div className="col-md-5 image_margin">
+                    <div className="col-md-5">
 
                             <a href='https://github.com/danielamoudokpo'> <img src={gitLogo} alt="" class=" image_margin img-fluid"/> </a>   
                             <a href='https://www.linkedin.com/in/daniel-kokou-amoudokpo/'> <img src={likLogo} alt="" class=" image_margin img-fluid lk"/></a>

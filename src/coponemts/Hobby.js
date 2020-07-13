@@ -9,7 +9,7 @@ class Hobby extends Component {
 
                 <div className="container py-3 ">
                     <h3 className='heading'>
-                            Hobby
+                    CENTRE D’INTERETS
                     </h3>
                     <ul style={{fontSize:'170%',fontWeight:'450'}}>
                         <li> Football, ancien joueur de New York Fusion Soccer Club à New York et
@@ -21,12 +21,12 @@ class Hobby extends Component {
 
                     <div className=' column col-md-5' style={{paddingTop:'60px'}}>
                     <h3 className=' py-2 heading1'>
-                                Languages
+                                Langues
                     </h3>
 
                     <ul style={{fontSize:'170%',fontWeight:'450'}}>
-                        <li> French </li>
-                        <li> English </li>
+                        <li> Francais </li>
+                        <li> Anglais </li>
                     </ul>
 
                     </div>

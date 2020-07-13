@@ -64,7 +64,7 @@ class Projects extends Component {
             <section className="projects-section py-5 " id={'Projects-Section'} style={{ }}>
             
                 <div class="container py-3 text-white">
-                    <h3 class="heading text-white ">My Works</h3>
+                    <h3 class="heading text-white ">Mes Projets</h3>
                     <div class="row exp-grids">
                         <div class="col-md-3 exp">
                             <h4>E-Studio</h4>
@@ -73,8 +73,8 @@ class Projects extends Component {
                                     large={es}
                                     alt="Hello World!"
                                     />
-                            <h5> Made With: React_Laravel</h5>
-                            <a href='https://gitlab.com/e-studio1'><button className='btn btn-primary'> Link GitHub </button></a>
+                            <h5> Crée avec: React_Laravel</h5>
+                            <a href='https://gitlab.com/e-studio1'><button className='btn btn-primary'> Lien GitHub </button></a>
 
                         </div>
                         <div style={{fontSize:'170%',fontWeight:'450',paddingTop:'70px'}}class="col-md-9 mt-md-0 mt-4">
@@ -87,14 +87,14 @@ class Projects extends Component {
 
                         </div>
                         <div class="col-md-3 exp1">
-                            <h4>My_Sapchat</h4>
+                            <h4>My_Snapchat</h4>
                             <ModalImage 
                                     small={snp}
                                     large={sp}
                                     alt="Hello World!"
                                     />
-                            <h5>Made With: React Native</h5>
-                            <a href='https://github.com/danielamoudokpo/my_snapchat'><button className='btn btn-primary'> Link GitHub </button></a>
+                            <h5>Crée avec: React Native</h5>
+                            <a href='https://github.com/danielamoudokpo/my_snapchat'><button className='btn btn-primary'> Lien GitHub </button></a>
                         </div>
                     </div>
                     <div class="row exp-grids mt-5">
@@ -105,8 +105,8 @@ class Projects extends Component {
                                     large={ad}
                                     alt="Hello World!"
                                     />
-                            <h5>Made With: Laravel</h5>
-                            <a href='https://github.com/danielamoudokpo/MVC_Free_Ads'><button className='btn btn-primary'> Link GitHub </button></a>
+                            <h5>Crée avec: Laravel</h5>
+                            <a href='https://github.com/danielamoudokpo/MVC_Free_Ads'><button className='btn btn-primary'> Lien GitHub </button></a>
                         </div>
                         <div style={{fontSize:'170%',fontWeight:'450',paddingTop:'70px'}} class="col-md-9 mt-md-0 mt-4">
                             <p>Création d'un site web basé sur le modèle de Leboncoin</p>
@@ -123,8 +123,8 @@ class Projects extends Component {
                                     large={qz1}
                                     alt="Hello World!"
                                     />
-                            <h5>Made With: Symfony</h5>
-                            <a href='https://github.com/danielamoudokpo/MVC_My_Quiz'><button className='btn btn-primary'> Link GitHub </button></a>
+                            <h5>Crée avec: Symfony</h5>
+                            <a href='https://github.com/danielamoudokpo/MVC_My_Quiz'><button className='btn btn-primary'> Lien GitHub </button></a>
                         </div>
                     </div>
                 </div>

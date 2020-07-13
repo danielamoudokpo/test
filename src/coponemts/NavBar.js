@@ -11,7 +11,7 @@ class NavBar extends Component{
         return(
             
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">My portfolio</Navbar.Brand>
+            <Navbar.Brand href="#home">Mon Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
            
@@ -33,7 +33,7 @@ class NavBar extends Component{
                     offset= {0}
                     duration = {300}
                     >
-                        About me
+                        About 
                     </Link>
                  </Nav.Link>
 
@@ -45,7 +45,7 @@ class NavBar extends Component{
                     offset= {0}
                     duration = {300}
                     >
-                        Projetcs
+                        Projets
                     </Link>
                  </Nav.Link>
               {/* <Nav> */}
@@ -70,7 +70,7 @@ class NavBar extends Component{
                     offset= {0}
                     duration = {300}
                     >
-                        Contact
+                        Contacts
                     </Link>
                  </Nav.Link>
 

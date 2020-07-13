@@ -10,17 +10,17 @@ class Contact extends Component{
             <section className="py-5 contact-section" id={'Contact-Section'}>
                 <div className=" py-3 container">
                     <h3 className='heading'>
-                                Contact
+                                Contacts
                     </h3>
                     <div className=' row contact-grids'>
                         <div className=" col-lg-5 contact-left">
-                            <h4 className='mb-4'> Address Info</h4>
+                            <h4 className='mb-4'> Info Adress</h4>
                             <div className='row'>
                                 <div className='col-1 pr-0 mt-4'>
                                     <i className="fa fa-envelope-open" arial-hidden='true'></i>
                                 </div>
                                 <div className='col-11 '>
-                                    <h5>Email</h5>
+                                    <h5>E-mail</h5>
                                     <p>
                                         <a href='#' > danielamoudokpo@gmail.com</a>
                                     </p>
@@ -33,7 +33,7 @@ class Contact extends Component{
                                     <i className="fa fa-phone" arial-hidden='true'></i>
                                 </div>
                                 <div className='col-11 mt-4'>
-                                    <h5>Phone</h5>
+                                    <h5>Telephone</h5>
                                     <p>+33 07 66 52 11 65 </p>
                                    
                                 </div>
@@ -51,21 +51,21 @@ class Contact extends Component{
                         </div>
 
                         <div className='col-lg-7 mt-lg-0 mt-5 contact-rigth'>
-                            <h4 className="mb-4 "> Get In Touch</h4>
+                            <h4 className="mb-4 "> Entrer en contact</h4>
 
                             <form action="#" method="post">
-                                <label><i className="fa mr-2 fa-user" aria-hidden="true"></i> Name</label>
-                                <input type="text" name="Name"  required="" placeholder='name'/>
+                                <label><i className="fa mr-2 fa-user" aria-hidden="true"></i> Nom</label>
+                                <input type="text" name="Name"  required="" placeholder='nom'/>
                                 <div className="clearfix"></div>
-                                <label><i className="fas mr-2 fa-envelope-open" aria-hidden="true"></i>Email</label>
-                                <input type="email" name="Email" placeholder='name' required=""/>
+                                <label><i className="fas mr-2 fa-envelope-open" aria-hidden="true"></i>E-mail</label>
+                                <input type="email" name="Email" placeholder='E-mail' required=""/>
                                 <div className="clearfix"></div>
-                                <label><i className="fas mr-2 fa-phone" aria-hidden="true"></i>Phone</label>
+                                <label><i className="fas mr-2 fa-phone" aria-hidden="true"></i>Telephone</label>
                                 <input type="text" name="Phone" placeholder='text'  required=""/>
                                 <div className="clearfix"></div>
                                 <label><i className="fas mr-2 fa-edit" aria-hidden="true"></i>Message</label>
                                 <textarea name="Message" placeholder='Message....' required=""/>
-                                <input type="submit" value="Submit"/>
+                                <input type="submit" value="Envoyé"/>
 				            </form>
                             
                         </div>

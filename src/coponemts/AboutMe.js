@@ -21,7 +21,7 @@ class AboutMe extends Component {
 
                 <div className='containe py-3 '>
                         <h3 className='heading'>
-                            About Me
+                            About 
                         </h3>
                     <div className='  row sides'>
 
@@ -33,27 +33,27 @@ class AboutMe extends Component {
                             <div className='container-fluid'>
                                 <div className='column  col-lg-12   '>
                                 <h3 className=' py-2 heading1'>
-                                            INFO
+                                            INFORMATIONS
                                         </h3>
                                     <ul  className='colo'>
-                                        <li> Name: kokou Daniel Amoudokpo</li>
+                                        <li> Nom: kokou Daniel Amoudokpo</li>
                                         {/* <hr/> */}
                                         <li> Email: danielamoudokpo@gmail.com</li>
                                         {/* <hr/> */}
-                                        <li> Phone: +33 7 66 52 11 65</li>
+                                        <li> Telephone: +33 7 66 52 11 65</li>
                                         {/* <hr/> */}
-                                        <li> DoB: 27 October 1999</li>
+                                        <li> DdN: 27 October 1999</li>
                                         {/* <hr/> */}
                                         <li> Address : 186 Rue Edouard Tremblay,94400,Vitry-sur-Seine,France. </li>
                                         {/* <hr/> */}
-                                        <li> Nationality : Togolese</li>
+                                        <li> Nationalité : Togolais</li>
                                     </ul>
                                 </div>
                                         <hr/>
 
                                 <div className='col-lg-8  column'>
                                         <h3 className=' py-2 heading1'>
-                                            SKILLS
+                                            COMPETENCES
                                         </h3>
                                     <ul  className='colo'>
                                         <p>HTML/CSS | Bootstrap | Php | JavaScript | React | React Native | NodeJS | MySQL | MongoDB | Laravel | Symfony | StripJs</p>
@@ -78,7 +78,7 @@ class AboutMe extends Component {
                                     <ul  className='colo'>
                                       
                                         <p>
-                                        Developeur -Web Integretor, EPITECH-SAMSUNG CAMPUS, Saint-Ouen
+                                        Developeur -Integrateur Web, EPITECH-SAMSUNG CAMPUS, Saint-Ouen
                                         </p>
                                        
                                     </ul>
@@ -86,7 +86,7 @@ class AboutMe extends Component {
                                     <hr/>
 
                                     <h3 className='heading1'>
-                                            EXPERIENCE PROFESSIONAL
+                                        EXPERIENCE PROFESSIONNELLE
                                         </h3>
                                     <ul  className='colo'>
                                         <p>Juillet 2019- Septembre 2019 : Stagiaire en maintenance des outils informatiques à ENSIATE.</p>
@@ -97,7 +97,7 @@ class AboutMe extends Component {
                                 </div>
                                 
                                 <div className = "App"style={{paddingTop:'48px',paddingLeft:'150px'}}>
-                                        <a className='pdf' href = {pdf} target = "_blank" download>Download Full CV<span class="fa ml-2 fa-download"></span> </a>
+                                        <a className='pdf' href = {pdf} target = "_blank" download>Telecharger Mon CV<span class="fa ml-2 fa-download"></span> </a>
                                 </div>
 
                             </div>
